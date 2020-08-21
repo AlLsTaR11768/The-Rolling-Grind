@@ -9,7 +9,11 @@ void main() {
           title: Text('The Rolling Grind'),
           backgroundColor: Colors.brown[600],
         ),
-        body: Center(child: Text('Placeholder')),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/CoffeeBear.png'),
+          ),
+        ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.menu),
         ),
